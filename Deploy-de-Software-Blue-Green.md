@@ -36,9 +36,9 @@ O Blue-Green Deployment é uma técnica de implantação que se destaca por mini
 
 **3. Redirecionamento do Tráfego**: Após a validação da nova versão, o tráfego de usuários é redirecionado do ambiente azul para o verde. Essa mudança pode ser realizada de diferentes maneiras, como:
 
-  **1. Balanceadores de Carga**: Configurar o balanceador para direcionar as requisições para o ambiente verde.
+  **- Balanceadores de Carga**: Configurar o balanceador para direcionar as requisições para o ambiente verde.
    
-   **2. DNS**: Alterar os registros DNS para apontar para o ambiente verde.
+   **- DNS**: Alterar os registros DNS para apontar para o ambiente verde.
 
 **4. Monitoramento do Ambiente Verde**: Com o ambiente verde em produção, é essencial monitorá-lo de perto para garantir a estabilidade da nova versão e identificar rapidamente quaisquer problemas.
 
