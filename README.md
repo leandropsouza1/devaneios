@@ -1,6 +1,6 @@
 # Devaneios
 
-Repositíro onde utilizo para colocar artigos e textos de coisas que eu gosto, que eu estudo e que talvez interesse e seja util para alguem.
+Repositório onde utilizo para colocar artigos, textos, post que eu escrevo para fixar alguma coisa que estou estudando e que talvez interesse e seja útil para mais alguém.
 
 ---
 
