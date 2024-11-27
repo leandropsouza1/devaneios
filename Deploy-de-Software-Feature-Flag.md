@@ -6,7 +6,9 @@ Se você chegou agora, no primeiro post discutimos as técnicas de [Blue-Green D
 
 A maneira como novas funcionalidades são integradas ao sistema não apenas impacta a experiência dos usuários, mas também influencia a reputação do software no mercado. Por isso, neste segundo post, vamos falar sobre Feature Flags e aprofundar o tema, explorando estratégias ainda mais granulares e seguras para a liberação de funcionalidades.
 
-Acompanhe e descubra como levar sua entrega de software ao próximo nível! :rocket:
+Acompanhe e descubra como levar sua entrega de software ao próximo nível! 🚀
+
+---
 
 ## Feature Flag
 A técnica Feature Flag Deployment (ou feature toggle) oferece uma abordagem poderosa para gerenciar a disponibilização de novas funcionalidades em software, permitindo que você as desative ou ative dinamicamente, sem a necessidade de novas implantações. Essa técnica proporciona grande flexibilidade e controle sobre o processo de implantação.
@@ -61,7 +63,7 @@ O Toggle Router, por sua vez, consulta a Toggle Configuration para determinar se
 **- Liberação Gradual e Canary Releases**: Permite lançar novas funcionalidades para um subconjunto de usuários, como em um Canary Release, para testar a aceitação e o impacto antes da liberação geral.
 
 
-:warning: **Feature Flag devem ser a última opção** :warning:
+⚠️ **Feature Flag devem ser a última opção** ⚠️
 
 A Feature Flag é uma técnica útil e amplamente utilizada por muitas equipes. No entanto, elas devem ser sua última escolha ao colocar funcionalidades em produção.
 
