@@ -6,7 +6,7 @@ Se você chegou agora, nos primeiros dois posts discutimos as técnicas de [Blue
 
 A maneira como novas funcionalidades são integradas ao sistema não apenas impacta a experiência dos usuários, mas também influencia a reputação do software no mercado. Por isso, neste terceiro post, vamos falar sobre Canary Release e aprofundar o tema, explorando estratégias ainda mais granulares e seguras para a liberação de funcionalidades.
 
-Acompanhe e descubra como levar sua entrega de software ao próximo nível! :rocket:
+Acompanhe e descubra como levar sua entrega de software ao próximo nível! 🚀
 
 ---
 
