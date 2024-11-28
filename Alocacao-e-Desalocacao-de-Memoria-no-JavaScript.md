@@ -2,7 +2,7 @@
 
 Olá, pessoal!
 
-Sou novo no JavaScript e estava tentando entender os tipos de dados e como funciona o gerenciamento de memória "por debaixo do capô". O JavaScript por ser uma linguagem de alto nível, muitos dos detalhes técnicos, como o gerenciamento de memória, são abstraídos do desenvolvedor. No entanto, acredito qu compreender o mínimo de como funciona a alocação e a desalocação de memória é essencial para escrevermos um código mais eficiente e evitar problemas, como vazamentos de memória.
+Sou novo no JavaScript e estava tentando entender os tipos de dados e como funciona o gerenciamento de memória "por debaixo do capô". O JavaScript por ser uma linguagem de alto nível, muitos dos detalhes técnicos, como o gerenciamento de memória, são abstraídos do desenvolvedor. No entanto, acredito que compreender o mínimo de como funciona a alocação e a desalocação de memória é essencial para escrevermos um código mais eficiente e evitar problemas, como vazamentos de memória.
 
 Fui atrás de materiais para esclarecer melhor esse tema, mas tive dificuldade em encontrar **em um unico lugar** algo que explicasse esse processo de forma mais aprofundada. Por isso, resolvi escrever este artigo para ajudar quem possa ter as mesmas dúvidas que eu!
 
@@ -61,11 +61,11 @@ O motor do JavaScript utiliza duas áreas principais de memória para alocar var
 
 ### 1. Stack
 
-A memória *stack* é usada para armazenar valores primitivos e **referências** a objetos no *heap*.
+A memória *stack* é usada para **armazenar valores primitivos e referências** a objetos no *heap*.
 
 É uma estrutura de dados linear e limitada em tamanho, ideal para armazenamento temporário de variáveis locais e chamadas de funções.
 
-Operações no *stack* são extremamente rápidas devido ao seu modo de funcionamento: LIFO (*Last In, First Out*).
+Operações no *stack* são extremamente rápidas devido ao seu modo de funcionamento: [LIFO (*Last In, First Out*)](https://pt.wikipedia.org/wiki/LIFO).
 
 Exemplo:
 
@@ -107,7 +107,7 @@ Fiz uma tabelinha para facilitar o entendimento de qual é a mutabilidade e o lo
 
 ## Desalocação de Memória e Garbage Collector
 
-Uma das vantagens do JavaScript é que ele gerencia a memória automaticamente. A desalocação de memória é realizada por meio de um processo conhecido como *Garbage Collection* (Coleta de Lixo) que por sua vez, utiliza um algoritmo chmado *Mark-and-Sweep* para saber quando uma alocação de memoria pode ser liberada. Sendo bem simplista, o processo é mais ou menos assim:
+Uma das vantagens do JavaScript é que ele gerencia a memória automaticamente. A desalocação de memória é realizada por meio de um processo conhecido como *Garbage Collection* (Coleta de Lixo) que por sua vez, utiliza um algoritmo chmado [*Mark-and-Sweep*](https://www.geeksforgeeks.org/mark-and-sweep-garbage-collection-algorithm/) para saber quando uma alocação de memoria pode ser liberada. Sendo bem simplista, o processo é mais ou menos assim:
 
 **1. Marcar:**
 
@@ -124,7 +124,7 @@ let obj = { name: "Alice" };
 obj = null; // O objeto original se torna inacessível
 ```
 
-O *Garbage Collection* detectará que o objeto { name: "Alice" } não é mais acessível e liberará a memória associada a ele.
+O *Garbage Collection* detectará que o obj { name: "Alice" } não é mais acessível e liberará a memória associada a ele.
 
 ## Problemas Comuns Relacionados à Memória
 
