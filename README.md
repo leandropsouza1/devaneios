@@ -7,3 +7,4 @@ Repositório onde utilizo para colocar artigos, textos, post que eu escrevo para
 1. [Deploy de Software: Três Estratégias para Alta Disponibilidade e Segurança - Blue Green](https://leandropsouza1.github.io/devaneios/Deploy-de-Software-Blue-Green)
 2. [Deploy de Software: Três Estratégias para Alta Disponibilidade e Segurança - Feature Flag](https://leandropsouza1.github.io/devaneios/Deploy-de-Software-Feature-Flag)
 3. [Deploy de Software: Três Estratégias para Alta Disponibilidade e Segurança - Canary](https://leandropsouza1.github.io/devaneios/Deploy-de-Software-Canary)
+4. [Entendendo a Alocação e Desalocação de Memória no JavaScript](https://leandropsouza1.github.io/devaneios/Alocacao-e-Desalocacao-de-Memoria-no-JavaScript)
