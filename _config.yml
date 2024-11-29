@@ -1,3 +1,9 @@
+title: [Devaneios]
+description:
+  [Local onde utilizo para colocar artigos, textos, post que escrevo.]
+show_downloads: ["true"]
+google_analytics: [1234]
+
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-feed

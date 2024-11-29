@@ -1,3 +1,8 @@
+---
+layout: post
+author: Leandro Pessoa
+---
+
 # Deploy de Software: Três Estratégias para Alta Disponibilidade e Segurança
 
 Dando continuidade à nossa série sobre estratégias de deploy de software, vamos explorar uma nova abordagem que garante disponibilidade e confiabilidade em sistemas críticos.
@@ -11,6 +16,7 @@ Acompanhe e descubra como levar sua entrega de software ao próximo nível! 🚀
 ---
 
 ## Canary Release
+
 A técnica Canary Release é uma abordagem poderosa para disponibilizar novas versões de software em produção, minimizando os riscos e o impacto de potenciais problemas. O nome, inspirado na prática de mineiros que usavam canários para detectar gases tóxicos em minas de carvão, reflete a essência da técnica: expor um pequeno grupo de usuários à nova versão, atuando como "canários", antes de liberá-la para todos.
 
 ## Como funciona o Canary Release?
@@ -81,10 +87,9 @@ Além disso, a diferença nos tempos de execução também torna a combinação 
 **- Comunique-se com os usuários**: Informe os usuários do grupo inicial, especialmente se houver risco de interrupções ou mudanças perceptíveis.
 
 ## Considerações Finais
+
 O Canary Release é uma técnica valiosa para equipes que buscam implantar novas versões de software de forma segura, controlada e com o mínimo de interrupção para os usuários. A técnica permite um processo de liberação gradual, com feedback constante e a possibilidade de rollback rápido, contribuindo para um ambiente de produção mais estável e confiável.
 
-
 **Fonte**: [Canary Release](https://martinfowler.com/bliki/CanaryRelease.html) do site [Martin Fowler](https://martinfowler.com/).
-
 
 #DevOps #CanaryRelease #GestãoDeRisco #EntregaContínua #Tecnologia #Inovação

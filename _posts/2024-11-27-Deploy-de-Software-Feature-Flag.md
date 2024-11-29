@@ -1,3 +1,8 @@
+---
+layout: post
+author: Leandro Pessoa
+---
+
 # Deploy de Software: Três Estratégias para Alta Disponibilidade e Segurança
 
 Dando continuidade à nossa série sobre estratégias de deploy de software, vamos explorar uma nova abordagem que garante disponibilidade e confiabilidade em sistemas críticos.
@@ -11,6 +16,7 @@ Acompanhe e descubra como levar sua entrega de software ao próximo nível! 🚀
 ---
 
 ## Feature Flag
+
 A técnica Feature Flag Deployment (ou feature toggle) oferece uma abordagem poderosa para gerenciar a disponibilização de novas funcionalidades em software, permitindo que você as desative ou ative dinamicamente, sem a necessidade de novas implantações. Essa técnica proporciona grande flexibilidade e controle sobre o processo de implantação.
 
 ## Como Funcionam os Feature Flag?
@@ -42,6 +48,7 @@ if (featureDecisions.recomendacoesAtivadas()) {
 
 }
 ```
+
 O Toggle Router, por sua vez, consulta a Toggle Configuration para determinar se a funcionalidade deve ser ativada.
 
 ## Vantagens
@@ -61,7 +68,6 @@ O Toggle Router, por sua vez, consulta a Toggle Configuration para determinar se
 **- Gerenciamento de Feature Flag**: Um grande número de Feature Flag em produção pode se tornar difícil de gerenciar. É importante ter uma estratégia para desativar e remover Feature Flag obsoletos.
 
 **- Liberação Gradual e Canary Releases**: Permite lançar novas funcionalidades para um subconjunto de usuários, como em um Canary Release, para testar a aceitação e o impacto antes da liberação geral.
-
 
 ⚠️ **Feature Flag devem ser a última opção** ⚠️
 
@@ -86,12 +92,9 @@ Se for absolutamente necessário ocultar uma funcionalidade parcialmente desenvo
 Somente se você não puder realizar lançamentos pequenos ou não puder utilizar a abordagem de [Keystone Interface](https://martinfowler.com/bliki/KeystoneInterface.html), deve considerar o uso de flags de lançamento.
 
 ## Conclusão
+
 O Feature Flag Deployment é uma técnica valiosa para equipes que buscam maior flexibilidade e controle no processo de implantação de software. A técnica permite lançar novas funcionalidades com segurança, realizar testes A/B, controlar a exposição de funcionalidades e responder rapidamente a problemas em produção. No entanto, é importante estar ciente das desvantagens e adotar práticas para mitigar a complexidade adicional e a sobrecarga de testes, garantindo que a implementação de Feature Flag seja eficaz e sustentável.
 
-
-
 Fonte: [Feature Flag](https://martinfowler.com/bliki/FeatureFlag.html) do site [Martin Fowler](https://martinfowler.com/).
-
-
 
 #FeatureFlags #DesenvolvimentoÁgil #DevOps #Inovação #GestãoDeRiscos #Tecnologia

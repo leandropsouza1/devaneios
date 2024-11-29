@@ -1,3 +1,8 @@
+---
+layout: post
+author: Leandro Pessoa
+---
+
 # Deploy de Software: Três Estratégias para Alta Disponibilidade e Segurança
 
 Na era da transformação digital, os softwares são elementos críticos em praticamente todos os aspectos de nossas vidas. Seja em interações sociais, gestão de infraestruturas complexas, comunicação instantânea ou acesso à informação, dependemos deles para uma infinidade de tarefas e atividades. Essa crescente dependência exige um nível elevado de confiabilidade e disponibilidade dos sistemas.
@@ -36,9 +41,9 @@ O Blue-Green Deployment é uma técnica de implantação que se destaca por mini
 
 **3. Redirecionamento do Tráfego**: Após a validação da nova versão, o tráfego de usuários é redirecionado do ambiente azul para o verde. Essa mudança pode ser realizada de diferentes maneiras, como:
 
-  **- Balanceadores de Carga**: Configurar o balanceador para direcionar as requisições para o ambiente verde.
-   
-   **- DNS**: Alterar os registros DNS para apontar para o ambiente verde.
+**- Balanceadores de Carga**: Configurar o balanceador para direcionar as requisições para o ambiente verde.
+
+**- DNS**: Alterar os registros DNS para apontar para o ambiente verde.
 
 **4. Monitoramento do Ambiente Verde**: Com o ambiente verde em produção, é essencial monitorá-lo de perto para garantir a estabilidade da nova versão e identificar rapidamente quaisquer problemas.
 
@@ -75,6 +80,7 @@ O Blue-Green Deployment é uma técnica de implantação que se destaca por mini
 **- Testes robustos**: Simule condições reais no ambiente Green antes de redirecionar o tráfego.
 
 ## Considerações Finais
+
 O Blue-Green Deployment é uma técnica poderosa para implantar software com alta disponibilidade, rollback simplificado e maior segurança. A técnica é especialmente adequada para aplicações que exigem alta disponibilidade e tolerância a falhas, mas exige planejamento e atenção aos detalhes, especialmente no que diz respeito ao gerenciamento de banco de dados e à sincronização de dados entre os ambientes.
 
 **Fonte**: [Blue Green Deployment](https://martinfowler.com/bliki/BlueGreenDeployment.html) do site [Martin Fowler](https://martinfowler.com/).
