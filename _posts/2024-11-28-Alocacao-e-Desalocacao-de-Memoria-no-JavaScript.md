@@ -1,3 +1,8 @@
+---
+layout: post
+author: Leandro Pessoa
+---
+
 # Entendendo a Alocação e Desalocação de Memória no JavaScript
 
 Olá, pessoal!
