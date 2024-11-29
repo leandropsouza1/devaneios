@@ -2,6 +2,8 @@
 
 source "https://rubygems.org"
 
+gem "jekyll-timeago", "~> 0.13.1"
+
 group :jekyll_plugins do
     gem "jekyll-sitemap"
     gem "jekyll-feed"
