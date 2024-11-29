@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem "jekyll-timeago", "~> 0.13.1"
+gem "jekyll"
 
 group :jekyll_plugins do
     gem "jekyll-sitemap"
