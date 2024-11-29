@@ -1,6 +1,6 @@
 title: "Devaneios"
 description: "Local onde utilizo para colocar meus artigos, textos e post que escrevo."
-show_downloads: ["true"]
+show_downloads: ["false"]
 google_analytics: [1234]
 
 baseurl: "/devaneios"
