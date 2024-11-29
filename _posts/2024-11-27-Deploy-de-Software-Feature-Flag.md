@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Leandro Pessoa
+tag: ConteudoTecnico GerenciaDeConfiguração Deploy DevOps FeatureFlag
 ---
 
 # Deploy de Software: Três Estratégias para Alta Disponibilidade e Segurança

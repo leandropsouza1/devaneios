@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Leandro Pessoa
+tag: ConteudoTecnico Programação JavaScript
 ---
 
 # Entendendo a Alocação e Desalocação de Memória no JavaScript
